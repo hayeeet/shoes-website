@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Ysabeau:ital,wght@0,300;1,300;1,400;1,500&display=swap');
+
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+html{
+    font-size: 90%;
+    scroll-padding-top: 5rem ;
+    scroll-behavior: smooth;
+}
+.header .header-1 {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(226, 237, 241);
+    border: #a8dff1 solid 2px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .header-1.logo{
+    border-radius: 10px;
+}
+#search-box {
+    align-items: center;
+    box-shadow: 5px 5px #a8dff1;
+    box-shadow: inset;
+    border: 1px  #73b0cd;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px #a8dff1 , 0 0 10px #a8dff1 , 0 0 15px #a8dff1, 0 0 200px #a8dff1 ;
+}
+.header .header-1 .icons a{
+    font-size:1.2rem;
+    margin-left: 1rem ;
+    color: #73b0cd;
+    cursor: pointer;
+}
+.header .header-1 .icons a:hover{
+    color: rgb(255, 238, 0);
+}
+.mainimg{
+    margin: 30px;
+    display: flex;
+    background-image: url(https://www.brides.com/thmb/wR1PigNfpPo0tEJQqdNRao0lloo=/1500x0/filters:no_upscalemax_bytes150000strip_icc/jimmychoo-ad792710b4fa43d988436cf4ecc6611e.jpg);
+
+}
+#raw1{
+    flex-basis: 40px;
+    
+    
+}
+/*#raw1::after {
+    content: '';
+    width: 800px;
+    height: 600px;
+    background-color: #d6d6d6;
+    position: absolute;
+    margin-left: 500px;
+
+    
+}*/
+#raw2 {
+    width: 1300px;
+}
+.message * {
+    border: 2px solid #a8dff1; 
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    width: 500px;
+    height: 60px;
+    margin-left: 80px;
+}
+.main-msg{
+    display: flex;
+    padding: 30px;
+    margin: 5px;
+    border: #a8dff1 solid 2px;
+    background-color: rgb(226, 237, 241);
+}
+#messgee3 {
+    width: 600px ;
+    height: 155px;
+    border: 2px solid #a8dff1; 
+    padding: 10px;
+    margin: 12px;
+    margin-left: 30px;
+}
+
+#butn {
+    margin-left: 30px;
+    width: 200px;
+    align-items: center;
+    border: 2px solid #a8dff1;
+    color: #a8dff1;
+    background-color: white;
+    margin-left: 250px;
+}
+#butn:hover{
+    background-color: #f5f5f5; 
+    box-shadow: 0 0 5px #a8dff1 , 0 0 25px #a8dff1 , 0 0 50px #a8dff1, 0 0 200px #a8dff1 ;
+}
+.contact {
+    display: flex;
+    border: #a8dff1 solid 2px;
+    margin: 5px;
+    background-color: rgb(226, 237, 241);
+    
+}
+h2{
+    margin-left: 200px;
+    color: #73b0cd;
+}
+#maps{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.line1{
+    display: inline-flex;
+    margin-left: 90px;
+}
+.line1 img{
+    width: 200px;
+    margin: 10px 40px;
+    margin-top: 40px;
+    
+}
+.line2{
+    display: flex;
+    margin-left: 90px;
+}
+.line2 img {
+    width: 200px;
+    margin: 10px 40px
+}
+#img1{
+    height: 250px;
+}
+#img2 {
+    height: 250px;
+}
+#img3 {
+height: 250px;
+width: 200px;
+}
+#img4 {
+    height: 250px;
+}
+#img5{
+    height: 250px;
+}
+#img8 {
+    height: 250px;
+}
+
+.social{
+   margin-top:300px;
+    margin-left: 50px;
+   
+}
+.box {
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+#truck {
+    
+    display: flex;
+    background-color: rgb(226, 237, 241);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px ;
+    color: #73b0cd;
+    border: #a8dff1 solid 2px;
+}
+#truck i {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+#truck p {
+    color: black;
+    text-align: center;
+    margin-left: 30px;
+}
+#our{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(226, 237, 241);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px ;
+    color: #73b0cd;
+    border: #a8dff1 solid 2px;
+}
+.full{
+    margin-top: 100px;
+}
+#shop{
+    top: 100%;
+    left: 1100px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(243, 243, 217);
+    box-shadow: 0 0 5px #bbe8f7 , 0 0 10px #bbe8f7 , 0 0 15px #bbe8f7, 0 0 200px #bbe8f7 ;
+}
